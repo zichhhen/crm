@@ -1,0 +1,19 @@
+{
+  "name": "management",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "fis-parser-less-2.x": "^0.1.4"
+  },
+  "devDependencies": {
+    "fis-postprocessor-autoprefixer": "^0.0.5",
+    "fis3-parser-vue-component": "^5.5.0",
+    "vue": "^2.5.9"
+  },
+  "scripts": {
+    "dev": "yog2 release dev --fis3 -wc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

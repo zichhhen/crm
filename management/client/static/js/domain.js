@@ -1,0 +1,1 @@
+window.currentUrl = "http://server.management.xiaodutv.cn:8900";
