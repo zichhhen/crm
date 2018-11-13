@@ -6,10 +6,12 @@ let opt= {
     database: 'crm'
 };
 let conn = mysql.createConnection(opt);
-let ret;
 conn.connect((err,res)=>{
-    ret = {
-        errno:200,
-        data:res
-    };
+    if (err) {
+        console.log(err);
+    }
+    else {
+        console.log('success');
+    } 
 });
+module.exports = conn;
